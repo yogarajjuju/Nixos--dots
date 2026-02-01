@@ -36,3 +36,16 @@ hyprland-dotfiles/
 ├── scripts/       # Helper scripts (keybinds, utilities)
 ├── wallpapers/    # Sample wallpapers
 └── README.md
+## 🧩 NixOS Configuration
+
+The `nixos/` directory contains:
+
+- `configuration.nix` – main system configuration
+- `hardware-configuration.nix` – hardware-specific settings
+
+⚠️ **Note:**  
+Before using on another system, review:
+- disk layout
+- GPU drivers
+- hostName
+- hardware options
